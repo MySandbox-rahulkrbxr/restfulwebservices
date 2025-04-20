@@ -1,4 +1,4 @@
-package com.rahulkrbxr.rest.webservices.resetful_web_services.user;
+package com.rahul.resetfulwebservices.user;
 
 import java.time.LocalDate;
 

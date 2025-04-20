@@ -1,4 +1,4 @@
-package com.rahulkrbxr.rest.webservices.resetful_web_services.helloworld;
+package com.rahul.resetfulwebservices.helloworld;
 
 public class HelloWorldBean {
 	private String message;

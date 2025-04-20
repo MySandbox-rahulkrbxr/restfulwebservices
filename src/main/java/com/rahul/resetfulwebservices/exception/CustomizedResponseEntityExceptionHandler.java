@@ -1,4 +1,4 @@
-package com.rahulkrbxr.rest.webservices.resetful_web_services.exception;
+package com.rahul.resetfulwebservices.exception;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.rahulkrbxr.rest.webservices.resetful_web_services.user.UserNotFoundException;
+import com.rahul.resetfulwebservices.user.UserNotFoundException;
 
 @ControllerAdvice
 public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {

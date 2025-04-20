@@ -1,4 +1,4 @@
-package com.rahulkrbxr.rest.webservices.resetful_web_services.exception;
+package com.rahul.resetfulwebservices.exception;
 
 import java.time.LocalDateTime;
 

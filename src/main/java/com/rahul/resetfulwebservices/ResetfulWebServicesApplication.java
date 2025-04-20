@@ -1,4 +1,4 @@
-package com.rahulkrbxr.rest.webservices.resetful_web_services;
+package com.rahul.resetfulwebservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

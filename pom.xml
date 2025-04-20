@@ -8,10 +8,10 @@
 		<version>3.5.0-M3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rahulkrbxr.rest.webservices</groupId>
-	<artifactId>resetful-web-services</artifactId>
+	<groupId>com.rahul</groupId>
+	<artifactId>resetfulwebservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resetful-web-services</name>
+	<name>resetfulwebservices</name>
 	<description>Restful Web Services in Spring Boot</description>
 	<url/>
 	<licenses>

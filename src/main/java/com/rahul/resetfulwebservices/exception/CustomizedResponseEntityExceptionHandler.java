@@ -10,7 +10,6 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
-import org.springframework.web.method.annotation.HandlerMethodValidationException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import com.rahul.resetfulwebservices.user.UserNotFoundException;
@@ -43,6 +42,6 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 				"Total error count: " + ex.getErrorCount() + ". First error: " + ex.getFieldError().getDefaultMessage(),
 				request.getDescription(false));
 
-		return new ResponseEntity(errorDetails, HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
 	}
 }
